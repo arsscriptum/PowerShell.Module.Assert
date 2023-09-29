@@ -1,4 +1,4 @@
-Import-Module $PSScriptRoot\..\..\TypeClass\src\TypeClass.psm1 -DisableNameChecking
+
 
 function Format-Collection ($Value, [switch]$Pretty) { 
     $separator = ', '
@@ -160,19 +160,3 @@ function Format-Type ([Type]$Value) {
         -replace "^Management\.Automation\.PSCustomObject$","PSObject" `
         -replace "^Object\[\]$","collection" `
 }
-
-
-Export-ModuleMember -Function @(
-    'Format-Collection'
-    'Format-Object'
-    'Format-Null'
-    'Format-Boolean'
-    'Format-ScriptBlock'
-    'Format-Number'
-    'Format-Hashtable'
-    'Format-Dictionary'
-    'Format-Type'
-    'Format-Nicely'
-    'Get-DisplayProperty'
-    'Get-ShortType'
-)

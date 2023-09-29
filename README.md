@@ -1,0 +1,87 @@
+# PowerShell.Module.Assert
+
+A little module that implements asserts fuctionalities
+
+
+
+| **Name**                          	   | **Category**       		     | **Description**       |
+|------------------------------------------|---------------------------------|----------------------|
+| Verify-AssertionFailed                   | Verify-AssertionFailed          | Verification         |
+| Verify-Equal                             | Verify-Equal                    | Verification         |
+| Verify-False                             | Verify-False                    | Verification         |
+| Verify-NotNull                           | Verify-NotNull                  | Verification         |
+| Verify-NotSame                           | Verify-NotSame                  | Verification         |
+| Verify-Null                              | Verify-Null                     | Verification         |
+| Verify-Same                              | Verify-Same                     | Verification         |
+| Verify-Throw                             | Verify-Throw                    | Verification         |
+| Verify-True                              | Verify-True                     | Verification         |
+| Verify-Type                              | Verify-Type                     | Verification         |
+| Assert-False                             | Assert-False                    | Boolean              |
+| Assert-True                              | Assert-True                     | Boolean              |
+| Assert-All                               | Assert-All                      | Collection           |
+| Assert-Any                               | Assert-Any                      | Collection           |
+| Assert-Contain                           | Assert-Contain                  | Collection           |
+| Assert-NotContain                        | Assert-NotContain               | Collection           |
+| Collect-Input                            | Collect-Input                   | Common               |
+| Ensure-ExpectedIsNotCollection           | Ensure-ExpectedIsNotCollection  | Common               |
+| Get-AssertionMessage                     | Get-AssertionMessage            | Common               |
+| Get-CustomFailureMessage                 | Get-CustomFailureMessage        | Common               |
+| New-PSObject                             | New-PSObject                    | Compatibility        |
+| Test-Same                                | Assert-Equivalent               | Equivalence          |
+| Is-CollectionSize                        | Assert-Equivalent               | Equivalence          |
+| Get-ValueNotEquivalentMessage            | Assert-Equivalent               | Equivalence          |
+| Get-CollectionSizeNotTheSameMessage      | Assert-Equivalent               | Equivalence          |
+| Compare-CollectionEquivalent             | Assert-Equivalent               | Equivalence          |
+| Compare-ValueEquivalent                  | Assert-Equivalent               | Equivalence          |
+| Compare-HashtableEquivalent              | Assert-Equivalent               | Equivalence          |
+| Compare-DictionaryEquivalent             | Assert-Equivalent               | Equivalence          |
+| Compare-ObjectEquivalent                 | Assert-Equivalent               | Equivalence          |
+| Compare-Equivalent                       | Assert-Equivalent               | Equivalence          |
+| Assert-Equivalent                        | Assert-Equivalent               | Equivalence          |
+| Assert-Throw                             | Assert-Throw                    | Exception            |
+| Get-Error                                | Assert-Throw                    | Exception            |
+| Join-And                                 | Assert-Throw                    | Exception            |
+| Add-SpaceToNonEmptyString                | Assert-Throw                    | Exception            |
+| Format-Collection                        | Format                          | Format               |
+| Format-Object                            | Format                          | Format               |
+| Format-Null                              | Format                          | Format               |
+| Format-Boolean                           | Format                          | Format               |
+| Format-ScriptBlock                       | Format                          | Format               |
+| Format-Number                            | Format                          | Format               |
+| Format-Hashtable                         | Format                          | Format               |
+| Format-Dictionary                        | Format                          | Format               |
+| Format-Nicely                            | Format                          | Format               |
+| Get-DisplayProperty                      | Format                          | Format               |
+| Get-ShortType                            | Format                          | Format               |
+| Format-Type                              | Format                          | Format               |
+| Assert-Equal                             | Assert-Equal                    | General              |
+| Assert-GreaterThan                       | Assert-GreaterThan              | General              |
+| Assert-GreaterThanOrEqual                | Assert-GreaterThanOrEqual       | General              |
+| Assert-LessThan                          | Assert-LessThan                 | General              |
+| Assert-LessThanOrEqual                   | Assert-LessThanOrEqual          | General              |
+| Assert-NotEqual                          | Assert-NotEqual                 | General              |
+| Assert-NotNull                           | Assert-NotNull                  | General              |
+| Assert-NotSame                           | Assert-NotSame                  | General              |
+| Assert-NotType                           | Assert-NotType                  | General              |
+| Assert-Null                              | Assert-Null                     | General              |
+| Assert-Same                              | Assert-Same                     | General              |
+| Assert-Type                              | Assert-Type                     | General              |
+| Test-Like                                | Assert-Like                     | String               |
+| Get-LikeDefaultFailureMessage            | Assert-Like                     | String               |
+| Assert-Like                              | Assert-Like                     | String               |
+| Test-NotLike                             | Assert-NotLike                  | String               |
+| Get-NotLikeDefaultFailureMessage         | Assert-NotLike                  | String               |
+| Assert-NotLike                           | Assert-NotLike                  | String               |
+| Test-StringEqual                         | Assert-StringEqual              | String               |
+| Get-StringEqualDefaultFailureMessage     | Assert-StringEqual              | String               |
+| Assert-StringEqual                       | Assert-StringEqual              | String               |
+| Get-StringNotEqualDefaultFailureMessage  | Assert-StringNotEqual           | String               |
+| Assert-StringNotEqual                    | Assert-StringNotEqual           | String               |
+| Is-Value                                 | TypeClass                       | TypeClass            |
+| Is-Collection                            | TypeClass                       | TypeClass            |
+| Is-ScriptBlock                           | TypeClass                       | TypeClass            |
+| Is-DecimalNumber                         | TypeClass                       | TypeClass            |
+| Is-Hashtable                             | TypeClass                       | TypeClass            |
+| Is-Dictionary                            | TypeClass                       | TypeClass            |
+| Is-Object                                | TypeClass                       | TypeClass            |
+

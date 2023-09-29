@@ -41,12 +41,3 @@ function Is-Object ($Value) {
     -not ($null -eq $Value -or (Is-Value -Value $Value) -or (Is-Collection -Value $Value))
 }
 
-Export-ModuleMember -Function @( 
-    'Is-Value'
-    'Is-Collection'
-    'Is-ScriptBlock'
-    'Is-DecimalNumber'
-    'Is-Hashtable'
-    'Is-Dictionary'
-    'Is-Object'
-)
